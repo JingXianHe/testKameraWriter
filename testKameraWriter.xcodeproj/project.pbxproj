@@ -15,6 +15,17 @@
 		FF7ACA6E1C5B194600940F35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7ACA6C1C5B194600940F35 /* LaunchScreen.storyboard */; };
 		FF7ACA791C5B194600940F35 /* testKameraWriterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7ACA781C5B194600940F35 /* testKameraWriterTests.m */; };
 		FF7ACA841C5B194700940F35 /* testKameraWriterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7ACA831C5B194700940F35 /* testKameraWriterUITests.m */; };
+		FF7ACA951C5B1B0D00940F35 /* THAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7ACA941C5B1B0D00940F35 /* THAssetsLibrary.m */; };
+		FF7ACA9A1C5B465D00940F35 /* NSString+THAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7ACA991C5B465D00940F35 /* NSString+THAdditions.m */; };
+		FF7ACA9D1C5B46B400940F35 /* NSFileManager+THAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7ACA9C1C5B46B400940F35 /* NSFileManager+THAdditions.m */; };
+		FF7ACAA01C5B471300940F35 /* THBaseCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7ACA9F1C5B471300940F35 /* THBaseCameraController.m */; };
+		FF7ACAA31C5B47CB00940F35 /* THPhotoFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7ACAA21C5B47CB00940F35 /* THPhotoFilters.m */; };
+		FF7ACAA61C5B485200940F35 /* THFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7ACAA51C5B485200940F35 /* THFunctions.m */; };
+		FF7ACAAA1C5B498800940F35 /* THContextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7ACAA91C5B498800940F35 /* THContextManager.m */; };
+		FF7ACAB01C5B4A2D00940F35 /* KameraDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7ACAAF1C5B4A2D00940F35 /* KameraDelegate.m */; };
+		FF7ACAB61C5B4DBD00940F35 /* THCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7ACAB51C5B4DBD00940F35 /* THCameraController.m */; };
+		FF7ACAB91C5B4ED300940F35 /* THMovieWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7ACAB81C5B4ED300940F35 /* THMovieWriter.m */; };
+		FF7ACABC1C5B50FE00940F35 /* THPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7ACABB1C5B50FE00940F35 /* THPreviewView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,30 @@
 		FF7ACA7F1C5B194600940F35 /* testKameraWriterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testKameraWriterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7ACA831C5B194700940F35 /* testKameraWriterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testKameraWriterUITests.m; sourceTree = "<group>"; };
 		FF7ACA851C5B194700940F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7ACA931C5B1B0D00940F35 /* THAssetsLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THAssetsLibrary.h; sourceTree = "<group>"; };
+		FF7ACA941C5B1B0D00940F35 /* THAssetsLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THAssetsLibrary.m; sourceTree = "<group>"; };
+		FF7ACA971C5B1D2D00940F35 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FF7ACA981C5B465D00940F35 /* NSString+THAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+THAdditions.h"; sourceTree = "<group>"; };
+		FF7ACA991C5B465D00940F35 /* NSString+THAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+THAdditions.m"; sourceTree = "<group>"; };
+		FF7ACA9B1C5B46B400940F35 /* NSFileManager+THAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+THAdditions.h"; sourceTree = "<group>"; };
+		FF7ACA9C1C5B46B400940F35 /* NSFileManager+THAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+THAdditions.m"; sourceTree = "<group>"; };
+		FF7ACA9E1C5B471300940F35 /* THBaseCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THBaseCameraController.h; sourceTree = "<group>"; };
+		FF7ACA9F1C5B471300940F35 /* THBaseCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THBaseCameraController.m; sourceTree = "<group>"; };
+		FF7ACAA11C5B47CB00940F35 /* THPhotoFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPhotoFilters.h; sourceTree = "<group>"; };
+		FF7ACAA21C5B47CB00940F35 /* THPhotoFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPhotoFilters.m; sourceTree = "<group>"; };
+		FF7ACAA41C5B485200940F35 /* THFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THFunctions.h; sourceTree = "<group>"; };
+		FF7ACAA51C5B485200940F35 /* THFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THFunctions.m; sourceTree = "<group>"; };
+		FF7ACAA81C5B498800940F35 /* THContextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THContextManager.h; sourceTree = "<group>"; };
+		FF7ACAA91C5B498800940F35 /* THContextManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContextManager.m; sourceTree = "<group>"; };
+		FF7ACAAE1C5B4A2D00940F35 /* KameraDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KameraDelegate.h; sourceTree = "<group>"; };
+		FF7ACAAF1C5B4A2D00940F35 /* KameraDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KameraDelegate.m; sourceTree = "<group>"; };
+		FF7ACAB11C5B4B4700940F35 /* THCameraControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCameraControllerDelegate.h; sourceTree = "<group>"; };
+		FF7ACAB41C5B4DBD00940F35 /* THCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCameraController.h; sourceTree = "<group>"; };
+		FF7ACAB51C5B4DBD00940F35 /* THCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCameraController.m; sourceTree = "<group>"; };
+		FF7ACAB71C5B4ED300940F35 /* THMovieWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMovieWriter.h; sourceTree = "<group>"; };
+		FF7ACAB81C5B4ED300940F35 /* THMovieWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THMovieWriter.m; sourceTree = "<group>"; };
+		FF7ACABA1C5B50FE00940F35 /* THPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPreviewView.h; sourceTree = "<group>"; };
+		FF7ACABB1C5B50FE00940F35 /* THPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPreviewView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +136,7 @@
 		FF7ACA5D1C5B194600940F35 /* testKameraWriter */ = {
 			isa = PBXGroup;
 			children = (
+				FF7ACA921C5B1AF300940F35 /* common */,
 				FF7ACA611C5B194600940F35 /* AppDelegate.h */,
 				FF7ACA621C5B194600940F35 /* AppDelegate.m */,
 				FF7ACA641C5B194600940F35 /* ViewController.h */,
@@ -109,7 +145,14 @@
 				FF7ACA6A1C5B194600940F35 /* Assets.xcassets */,
 				FF7ACA6C1C5B194600940F35 /* LaunchScreen.storyboard */,
 				FF7ACA6F1C5B194600940F35 /* Info.plist */,
+				FF7ACA971C5B1D2D00940F35 /* PrefixHeader.pch */,
 				FF7ACA5E1C5B194600940F35 /* Supporting Files */,
+				FF7ACAB41C5B4DBD00940F35 /* THCameraController.h */,
+				FF7ACAB51C5B4DBD00940F35 /* THCameraController.m */,
+				FF7ACAB71C5B4ED300940F35 /* THMovieWriter.h */,
+				FF7ACAB81C5B4ED300940F35 /* THMovieWriter.m */,
+				FF7ACABA1C5B50FE00940F35 /* THPreviewView.h */,
+				FF7ACABB1C5B50FE00940F35 /* THPreviewView.m */,
 			);
 			path = testKameraWriter;
 			sourceTree = "<group>";
@@ -138,6 +181,30 @@
 				FF7ACA851C5B194700940F35 /* Info.plist */,
 			);
 			path = testKameraWriterUITests;
+			sourceTree = "<group>";
+		};
+		FF7ACA921C5B1AF300940F35 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				FF7ACA931C5B1B0D00940F35 /* THAssetsLibrary.h */,
+				FF7ACA941C5B1B0D00940F35 /* THAssetsLibrary.m */,
+				FF7ACA981C5B465D00940F35 /* NSString+THAdditions.h */,
+				FF7ACA991C5B465D00940F35 /* NSString+THAdditions.m */,
+				FF7ACA9B1C5B46B400940F35 /* NSFileManager+THAdditions.h */,
+				FF7ACA9C1C5B46B400940F35 /* NSFileManager+THAdditions.m */,
+				FF7ACA9E1C5B471300940F35 /* THBaseCameraController.h */,
+				FF7ACA9F1C5B471300940F35 /* THBaseCameraController.m */,
+				FF7ACAA11C5B47CB00940F35 /* THPhotoFilters.h */,
+				FF7ACAA21C5B47CB00940F35 /* THPhotoFilters.m */,
+				FF7ACAA41C5B485200940F35 /* THFunctions.h */,
+				FF7ACAA51C5B485200940F35 /* THFunctions.m */,
+				FF7ACAA81C5B498800940F35 /* THContextManager.h */,
+				FF7ACAA91C5B498800940F35 /* THContextManager.m */,
+				FF7ACAAE1C5B4A2D00940F35 /* KameraDelegate.h */,
+				FF7ACAAF1C5B4A2D00940F35 /* KameraDelegate.m */,
+				FF7ACAB11C5B4B4700940F35 /* THCameraControllerDelegate.h */,
+			);
+			name = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +337,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7ACAB61C5B4DBD00940F35 /* THCameraController.m in Sources */,
+				FF7ACAA01C5B471300940F35 /* THBaseCameraController.m in Sources */,
+				FF7ACA9A1C5B465D00940F35 /* NSString+THAdditions.m in Sources */,
+				FF7ACABC1C5B50FE00940F35 /* THPreviewView.m in Sources */,
+				FF7ACAA31C5B47CB00940F35 /* THPhotoFilters.m in Sources */,
+				FF7ACA951C5B1B0D00940F35 /* THAssetsLibrary.m in Sources */,
 				FF7ACA661C5B194600940F35 /* ViewController.m in Sources */,
+				FF7ACAB01C5B4A2D00940F35 /* KameraDelegate.m in Sources */,
+				FF7ACAA61C5B485200940F35 /* THFunctions.m in Sources */,
 				FF7ACA631C5B194600940F35 /* AppDelegate.m in Sources */,
+				FF7ACAAA1C5B498800940F35 /* THContextManager.m in Sources */,
+				FF7ACA9D1C5B46B400940F35 /* NSFileManager+THAdditions.m in Sources */,
 				FF7ACA601C5B194600940F35 /* main.m in Sources */,
+				FF7ACAB91C5B4ED300940F35 /* THMovieWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -400,7 +478,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -411,7 +489,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = testKameraWriter/PrefixHeader.pch;
 				INFOPLIST_FILE = testKameraWriter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jingxianhe.testKameraWriter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +502,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = testKameraWriter/PrefixHeader.pch;
 				INFOPLIST_FILE = testKameraWriter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jingxianhe.testKameraWriter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
